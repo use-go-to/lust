@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUST - Vente de T-shirts en Ligne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/LUST.png" alt="LUST">
+        </div>
+        
+    </header>
+
+    <section class="progress-bar-section">
+        <h2>Précommandes</h2>
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+            <div id="milestone-0" class="milestone-marker" style="left: 20%;"></div>
+            <div class="milestone-label" style="left: 20%;">20</div>
+            <div id="milestone-1" class="milestone-marker" style="left: 40%;"></div>
+            <div class="milestone-label" style="left: 40%;">40</div>
+            <div id="milestone-2" class="milestone-marker" style="left: 60%;"></div>
+            <div class="milestone-label" style="left: 60%;">60</div>
+            <div id="milestone-3" class="milestone-marker" style="left: 80%;"></div>
+            <div class="milestone-label" style="left: 80%;">80</div>
+            <div id="milestone-4" class="milestone-marker" style="left: 100%;"></div>
+            <div class="milestone-label" style="left: 100%;">100</div>
+        </div>
+        <p id="progress-text">0/100 précommandes</p>
+        <p id="rules">Achetez maintenant et bénéficiez d’une réduction selon les précommandes : chaque palier atteint réduit le prix de 3€. Le prix final sera ajusté après 30 jours, et vous serez remboursé de la différence si le prix baisse. Par exemple, si le palier des 60 est atteint, vous payerez seulement 26€ au lieu de 35€ et ainsi de suite.</p>
+    </section>
+
+    <section class="products">
+        <h2>Nos T-shirts</h2>
+        <div class="product-list">
+            <div class="product" id="product1">
+                <img src="img/1.jpg" alt="T-shirt 1">
+                <h3>T-shirt Flamme Océane</h3>
+                <p>Un t-shirt vibrant alliant l'intensité de l'orange à la sérénité du bleu.</p>
+                <p class="price"><span class="initial-price" id="initial-price1">35€</span> <span id="price1"></span></p>
+                <button class="buy-button">Précommander</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="img/2.jpg" alt="T-shirt 2">
+                <h3>T-shirt Jardin d'Émeraude</h3>
+                <p>Un t-shirt frais et revitalisant combinant des teintes de jaune et vert.</p>
+                <p class="price"><span class="initial-price" id="initial-price2">35€</span> <span id="price2"></span></p>
+                <button class="buy-button">Précommander</button>
+            </div>
+            <div class="product" id="product3">
+                <img src="img/3.jpg" alt="T-shirt 3">
+                <h3>T-shirt Brise Marine</h3>
+                <p>Un t-shirt apaisant aux nuances de bleu et vert rappelant la mer et la nature.</p>
+                <p class="price"><span class="initial-price" id="initial-price3">35€</span> <span id="price3"></span></p>
+                <button class="buy-button">Précommander</button>
+            </div>
+            <div class="product" id="product4">
+                <img src="img/4.jpg" alt="T-shirt 4">
+                <h3>T-shirt Floraison Nocturne</h3>
+                <p>Un t-shirt élégant et doux mêlant des couleurs bleu profond et rose délicat.</p>
+                <p class="price"><span class="initial-price" id="initial-price4">35€</span> <span id="price4"></span></p>
+                <button class="buy-button">Précommander</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
